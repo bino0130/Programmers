@@ -11,9 +11,8 @@ class Solution {
         else a = num * 3 + 1;
         
         if (a != 1) {
-            if((cnt+1) == 500) {
-                return -1;
-            } else cnt++;
+            if((cnt+1) == 500) return -1;
+            else cnt++;
             return Collatz(a, cnt);
         } else return cnt;
     }
