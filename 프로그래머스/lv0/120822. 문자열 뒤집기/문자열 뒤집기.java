@@ -4,7 +4,6 @@ class Solution {
         for(int i = 0; i < my_string.length(); i++) {
             sb.append(my_string.charAt(i));
         }
-        String answer = sb.reverse().toString();
-        return answer;
+        return sb.reverse().toString();
     }
 }
