@@ -1,0 +1,1 @@
+select animal_id, name from ANIMAL_INS;
